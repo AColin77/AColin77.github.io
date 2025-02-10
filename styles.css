@@ -99,11 +99,11 @@ li {
 
 
 footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px;
-    position: fixed;
-    width: 10%;
+    color: black;
+    text-align:end;
+    padding: 0px;
+    position:absolute;
+    right: 0px;
+    width: 100%;
     bottom: 0;
 }
