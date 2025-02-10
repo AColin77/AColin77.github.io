@@ -8,8 +8,7 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: #f0f8ff; 
-    width: 725px; 
+    background-color: #f0f8ff;  
     margin: 10px; 
     color: #333;
 }
@@ -17,26 +16,23 @@ body {
 header {
     background-color: #333;
     color: #fff;
-    padding: 20px;
+    padding: 12px;
     text-align: center;
 }
 nav_menu ul {
-    list-style-type: none;}
-nav_menu ul li {
-    float: left;}
-nav_menu ul li a {   
-    text-align:center;
-    display: block;
-    width: 175px;
+    list-style-type: none;
     padding: 1em 0;
-    text-decoration: none;
-    background-color: blue;
-    color: white;
-    font-weight: bold;}
-nav_menu ul li a.lastitem{
-    border-right: none;}
-nav_menu ul li a.current {
-    color:yellow;}
+    text-align:center;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;}
+nav_menu ul li {
+    display: inline;
+    padding: 0 1.5em;}
+nav_menu ul li a {    
+    font-weight: bold;    
+    color: blue; }
+nav_menu ul li a.current {    
+    text-decoration: none; }
 
 h1 {
     font-size: 2.5rem;
@@ -105,5 +101,4 @@ footer {
     position:absolute;
     right: 0px;
     width: 100%;
-    bottom: 0;
 }
