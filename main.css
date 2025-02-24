@@ -18,6 +18,7 @@ header {
     color: white;
     padding: 250px;
     text-align: center;
+    background-size: auto;
 }
 #nav_menu ul {
     list-style-type: none;
@@ -26,7 +27,7 @@ header {
     float: left;
 }
 #nav_menu ul li a {  
-    text-align:center;
+    text-align: auto;
     display: block;
     width: 175px;
     padding: 1em 0;
