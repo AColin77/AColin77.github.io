@@ -76,7 +76,8 @@ p {
     height: 400px;
 }
 #image1:hover {
-    background-image: url("
+    background-image: url("MountainBike2.jpeg");
+}
 .right-column {
     flex: 1;
     background-color: white;
