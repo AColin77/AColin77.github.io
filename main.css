@@ -64,7 +64,11 @@ p {
 }
 
 .bike-image {
-  width: 500px;
+    width: 500px; /* Adjust as needed */
+      height: 400px; /* Adjust as needed */
+      border-radius: 20px; /* Adjust for roundness */
+      border: 3px solid blue; /* Blue border */
+      object-fit: cover; /* Ensures image covers the area */
 }
 
 .right-column {
