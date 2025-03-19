@@ -70,7 +70,13 @@ p {
       border: 3px solid blue; /* Blue border */
       object-fit: cover; /* Ensures image covers the area */
 }
-
+#image1 {
+    background-image: url("GravelBikeCover.jpg.webp");
+    width: 500px;
+    height: 400px;
+}
+#image1:hover {
+    background-image: url("
 .right-column {
     flex: 1;
     background-color: white;
