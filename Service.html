@@ -8,6 +8,13 @@
   <meta name="keywords" content="bikes, bicycle rental, mountain bikes, street bikes, rental pricing">
   <title>Artemio's Bicycle Shop</title>
   <link rel="stylesheet" type="text/css" href="main.css">
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script> 
+        <script src="js/jquery.slicknav.min.js"></script> 
+        <script type="text/javascript"> 
+            $(document).ready(function(){
+                $('#nav_menu').slicknav({prependTo:"#mobile_menu"}); 
+            }); 
+        </script>
   
 </head>
 
@@ -24,6 +31,8 @@
       </ul>
     </nav>
   </header>
+  <nav id="mobile_menu"></nav> 
+        <nav id="nav_menu"> 
 
   <div class="container">
     <div class="left-column">
