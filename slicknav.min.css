@@ -2,6 +2,7 @@
  * SlickNav Responsive Mobile Menu v1.0.10
  * (c) 2016 Josh Cope
  * licensed under MIT
+ * Edit by @jmiller 10-13-2019
  */
 .slicknav_btn {
   position: relative;
@@ -14,10 +15,8 @@
   .slicknav_btn .slicknav_icon-bar + .slicknav_icon-bar {
     margin-top: 0.188em; }
 
-
-
 .slicknav_menu {
-    display: block;}
+  *zoom: 1; }
   .slicknav_menu .slicknav_menutxt {
     display: block;
     line-height: 1.188em;
@@ -104,7 +103,7 @@
   color: #fff;
   margin: 0;
   padding: 0;
-  font-size: 0.875em;
+  font-size: 1.8em;
   list-style: none;
   overflow: hidden; }
   .slicknav_nav ul {
@@ -147,5 +146,3 @@
   line-height: 30px;
   padding: 7px 12px;
   height: 44px; }
-
-
